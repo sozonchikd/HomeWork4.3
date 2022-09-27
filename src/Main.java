@@ -22,5 +22,20 @@ public class Main {
         } else {
             System.out.println("Если ребёнку " + childAge + " лет, то он может кататься без сопровождения взрослого.");
         }
+
+        System.out.println("Задание 3");
+        int one = 7;
+        int two = 17;
+        int free = 9;
+        if (one > two && one >= free) {
+            System.out.println("Число " + one + " больше других");
+        } else if (free > one && free >= two) {
+            System.out.println("Число " + free + " больше других");
+        } else if (two > free) {
+            System.out.println("Число " + two + " больше других");
+        } else {
+            System.out.println("Все числа равны");
+
+        }
     }
 }
